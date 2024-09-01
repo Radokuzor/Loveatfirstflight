@@ -1,0 +1,99 @@
+/* src/assets/HomeScreen.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://images.unsplash.com/photo-1504151932400-72d4384f04b3');
+    /* Replace with your preferred image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.home-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Translucent background for content */
+    min-height: 100vh;
+}
+
+.couples-container {
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px 0;
+}
+
+.couple-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Slightly opaque background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease;
+}
+
+.couple-row:hover {
+    transform: scale(1.02);
+    /* Slightly enlarges the row on hover */
+}
+
+.carousel {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    max-width: 40%;
+    overflow-x: auto;
+    /* Enables horizontal scrolling */
+    scroll-snap-type: x mandatory;
+    /* Ensures smooth scrolling between images */
+    padding-bottom: 10px;
+    /* Prevents scrollbar overlap */
+}
+
+.carousel img {
+    min-width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    scroll-snap-align: center;
+    /* Aligns the image to the center when scrolling */
+}
+
+.couple-story {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.couple-story h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.couple-story p {
+    font-size: 1rem;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .couple-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .carousel {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .couple-story {
+        padding-left: 0;
+    }
+}
