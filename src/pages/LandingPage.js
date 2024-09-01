@@ -8,7 +8,7 @@ const LandingPage = () => {
     <div className="landing-page">
       <div className="banner">
         <div className="overlay">
-          <h1>Celebrate Your Love</h1>
+          <h1>Love At First Flight</h1>
           <p>
             Create a profile, set up your registry, and share your love story
             with the world.

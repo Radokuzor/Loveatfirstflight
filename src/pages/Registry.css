@@ -1,0 +1,80 @@
+/* src/assets/Registry.css */
+
+.registry-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Light translucent background */
+    min-height: 100vh;
+}
+
+.registry-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.registry-form .form-group {
+    margin-bottom: 20px;
+}
+
+.registry-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.registry-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.add-item-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-item-button:hover {
+    background-color: #e65c50;
+}
+
+.registry-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.registry-item {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.registry-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.registry-item a:hover {
+    text-decoration: underline;
+}
