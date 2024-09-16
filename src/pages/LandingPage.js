@@ -8,7 +8,7 @@ const LandingPage = () => {
     <div className="landing-page">
       <div className="banner">
         <div className="overlay">
-          <h1>Love At First Flight</h1>
+          <h1>GIFT IT</h1>
           <p>
             Create a profile, set up your registry, and share your love story
             with the world.
@@ -21,15 +21,15 @@ const LandingPage = () => {
 
       <section className="features">
         <div className="feature">
-          <h2>Personalized Profiles</h2>
+          <h2>Wedding Registry</h2>
           <p>Showcase your love story with photos, videos, and more.</p>
         </div>
         <div className="feature">
-          <h2>Wedding Registry</h2>
+          <h2>Birthday Registry</h2>
           <p>Set up a registry for your guests to purchase gifts and donate.</p>
         </div>
         <div className="feature">
-          <h2>Guest Management</h2>
+          <h2>Baby Arrival</h2>
           <p>Organize and manage your wedding guests with ease.</p>
         </div>
       </section>
