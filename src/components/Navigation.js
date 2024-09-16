@@ -6,7 +6,7 @@ import "./Navigation.css";
 const Navigation = () => {
   return (
     <div className="navigation">
-      <h1 className="nav-title">Love At First Flight</h1>
+      <h1 className="nav-title">GIFT IT</h1>
       <nav className="nav-bar">
         <ul>
           <li>
