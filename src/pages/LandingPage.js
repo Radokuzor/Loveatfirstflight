@@ -10,9 +10,9 @@ const LandingPage = () => {
         <div className="overlay">
           <h1>Celebrating milestones with heartfelt gifts</h1>
           <p>Add the gifts you want from the pinnacle mall</p>
-          {/* <Link to="/signup">
+          <Link to="/signup">
             <button className="cta-button">Get Started</button>
-          </Link> */}
+          </Link>
         </div>
       </div>
 
