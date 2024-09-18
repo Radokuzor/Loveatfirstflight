@@ -121,28 +121,15 @@ const HomeScreen = () => {
   return (
     <div className="home-screen">
       <Navigation />
-      <div className="couples-container">
-        {couples.map((couple) => (
-          <Link
-            to={`/couple/${couple.id}`}
-            key={couple.id}
-            className="couple-row"
-          >
-            <div className="carousel">
-              {couple.photos.map((photo, index) => (
-                <img
-                  src={photo}
-                  alt={`${couple.name} Wedding ${index + 1}`}
-                  key={index}
-                />
-              ))}
-            </div>
-            <div className="couple-story">
-              <h2>{couple.name}</h2>
-              <p>{couple.story}</p>
-            </div>
-          </Link>
-        ))}
+      {/* Added iframe for external website */}
+      <div className="iframe-container">
+        <iframe
+          src="https://cwe.yookos.com/"
+          title="External Website"
+          width="100%"
+          height="100%"
+          style={{ border: "none", minHeight: "100vh", width: "100vw" }} // Adjusts iframe size to cover the entire screen height
+        />
       </div>
     </div>
   );

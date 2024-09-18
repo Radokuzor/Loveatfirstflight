@@ -8,14 +8,11 @@ const LandingPage = () => {
     <div className="landing-page">
       <div className="banner">
         <div className="overlay">
-          <h1>GIFT IT</h1>
-          <p>
-            Create a profile, set up your registry, and share your love story
-            with the world.
-          </p>
-          <Link to="/signup">
+          <h1>Celebrating milestones with heartfelt gifts</h1>
+          <p>Add the gifts you want from the pinnacle mall</p>
+          {/* <Link to="/signup">
             <button className="cta-button">Get Started</button>
-          </Link>
+          </Link> */}
         </div>
       </div>
 
